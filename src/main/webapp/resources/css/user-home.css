@@ -1,0 +1,132 @@
+.wrapper {
+	background-color: #F1F1EA;
+	margin: auto;
+}
+
+.top-bar {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#logout-part {
+	display: none;
+	background-color: white;
+	position: relative;
+	top: -30px;
+	left: 35%;
+	width: 300px;
+	padding: 10px;
+	text-align: center;
+	box-shadow: 5px 5px 5px #888888;
+	border-radius: 8px;
+}
+
+#logout-part a {
+	width: 70%;
+	font-size: 15px;
+	font-weight: 900;
+	color: black;
+}
+
+#logout-part a:hover {
+	color: #b30000;
+}
+
+#logout-btn {
+	margin-left: 20px;
+	border-color: #b30000 2px solid;
+}
+
+#logoimg {
+	text-align: center;
+	width: 100%;
+}
+
+#logoimg img {
+	width: 100%;
+}
+
+.icon-part {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.icon-part a {
+	color: black;
+}
+
+.icon-part  span {
+	float: left; width : 100%;
+	color: black;
+	font-weight: 900;
+	margin-top: 5px;
+	width: 100%;
+}
+
+.icon-part  a:hover {
+	text-decoration: none;
+}
+
+.active-part a {
+	color: #b30000;
+}
+
+#nav-bar {
+	color: white;
+	border: none;
+	border-radius: 0px;
+	background-color: #b30000;
+}
+
+#nav-bar #active a {
+	background-color: darkred;
+	color: white;
+}
+
+#nav-bar a {
+	color: white;
+	font-weight: 900;
+}
+
+.foot-part {
+	background-color: #b30000;
+	padding: 10px 0;
+	height: 40px;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.foot-part a {
+	color: white;
+}
+
+.foot-btn {
+	background-color: #b30000;
+	border: none;
+	color: white;
+	font-size: 20px;
+}
+
+/* 
+
+.errormsg{
+	color: #b30000;
+	margin-top: 10px;
+	display: none;
+} */
+.container {
+	min-height: 500px;
+}
+
+.errormsg {
+	color: red;
+	text-align: center;
+	display: none;
+}
+
+.modal-dialog{
+	margin-top: 150px;
+	
+}

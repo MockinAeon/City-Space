@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory name="FinalProj">
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/Final</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">wxr</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="hibernate.show_sql">true</property>
+        
+        <mapping class="com.wxr.spring.pojo.Account" />
+        <mapping class="com.wxr.spring.pojo.Building" />
+        <mapping class="com.wxr.spring.pojo.City" />
+        <mapping class="com.wxr.spring.pojo.CreditAdmin" />
+        <mapping class="com.wxr.spring.pojo.Enterprise" />
+        <mapping class="com.wxr.spring.pojo.Floor" />
+        <mapping class="com.wxr.spring.pojo.Guest" />
+        <mapping class="com.wxr.spring.pojo.Reservation" />
+        <mapping class="com.wxr.spring.pojo.ReserveAdmin" />
+        <mapping class="com.wxr.spring.pojo.Space" />
+        <mapping class="com.wxr.spring.pojo.Subscription" />
+        
+        
+    </session-factory>
+</hibernate-configuration>

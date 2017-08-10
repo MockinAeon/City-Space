@@ -1,0 +1,37 @@
+.left-part {
+	padding-top: 80px;	
+} 
+.right-part table{
+	margin-top: 20px;
+}
+.left-part{
+}
+.left-part a {
+	color: #5D5850;
+	font-weight:800;
+	float: left;
+	margin:15px 0;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	padding-top: 10px;
+	background-color: #D3CFC0;
+	border-radius: 7px;
+}
+#add-success-btn{
+	display:none;
+}
+.modal-dialog{
+	padding: 20px;
+}
+
+
+.right-part h2{
+	float: left;
+	margin-right: 200px;
+}
+.right-part  button{
+	float: right;
+	margin-top: 20px;
+	margin-left: 20px;
+}

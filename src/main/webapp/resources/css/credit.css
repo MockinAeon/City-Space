@@ -1,0 +1,33 @@
+.button-part{
+	float: left;
+	width:100%;
+}
+.button-part h2{
+	float: left;
+}
+.button-part  button{
+	float: right;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.tips{
+	float:right;
+	width:100%;
+	text-align: right;
+	margin-bottom: 10px;
+	color:darkred;
+	display:none;
+}
+#add-success-btn{
+	display:none;
+}
+#reserve-modal-btn{
+	display: none;
+}
+
+table{
+	margin-top: 80px;
+}
+.creditedit-btn{
+	width: 40px;
+}

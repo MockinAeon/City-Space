@@ -1,0 +1,150 @@
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+	#login {
+		width: 40%;
+		z-index: 20;
+		opacity: 0.3;
+		float: left;
+		margin: auto;
+		position: fixed;
+		height: auto;
+		top: 25%;
+		left: 25%;
+		right: 25%;
+		padding: 2%;
+	}
+	#redtxt {
+		float: left;
+		width: 100%;
+		text-align: center;
+		color: red;
+		font-size: 18px;
+		font-family: serif;
+		margin-bottom: 2%;
+		font-style: italic;
+	}
+	#myneutxt {
+		float: left;
+		width: 100%;
+		color: white;
+		text-align: center;
+		font-size: 50px;
+		font-family: serif;
+	}
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+	#login {
+		width: 50%;
+		z-index: 20;
+		opacity: 0.3;
+		float: left;
+		margin: auto;
+		position: fixed;
+		height: auto;
+		top: 25%;
+		left: 25%;
+		right: 25%;
+		padding: 2%;
+	}
+	#second {
+		float: left;
+		width: 60%;
+		margin-left: 4%;
+		margin-top: 6%;
+	}
+	#redtxt {
+		float: left;
+		width: 100%;
+		text-align: center;
+		color: red;
+		font-size: 18px;
+		font-family: serif;
+		margin-bottom: 2%;
+		font-style: italic;
+	}
+	#myneutxt {
+		float: left;
+		width: 100%;
+		color: white;
+		text-align: center;
+		font-size: 40px;
+		font-family: serif;
+	}
+	.smalltxt {
+		float: left;
+		color: white;
+		font-size: 10px;
+		width: 100%;
+		text-align: center;
+	}
+	#third input {
+		color: white;
+		float: left;
+		width: 40%;
+		margin-left: 30%;
+		margin-right: 30%;
+		margin-top: 10px;
+		background-color: rgba(0, 0, 0, 0);
+		border: solid 1px white;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#login {
+		width: 70%;
+		z-index: 20;
+		opacity: 0.3;
+		float: left;
+		margin: auto;
+		position: fixed;
+		height: auto;
+		top: 30%;
+		left: 15%;
+		right: 15%;
+		padding: 2%;
+	}
+	#img {
+		display: none;
+	}
+	#second {
+		float: left;
+		width: 100%;
+		margin-left: 4%;
+		margin-top: 6%;
+	}
+	#redtxt {
+		float: left;
+		width: 100%;
+		text-align: center;
+		color: red;
+		font-size: 10px;
+		font-family: serif;
+		margin-bottom: 2%;
+		font-style: italic;
+	}
+	#myneutxt {
+		float: left;
+		width: 100%;
+		color: white;
+		text-align: center;
+		font-size: 20px;
+		font-family: serif;
+	}
+	.smalltxt {
+		float: left;
+		color: white;
+		font-size: 10px;
+		width: 100%;
+		text-align: center;
+	}
+	#third input {
+		color: white;
+		float: left;
+		width: 40%;
+		margin-left: 30%;
+		margin-right: 30%;
+		margin-top: 10px;
+		background-color: rgba(0, 0, 0, 0);
+		border: solid 1px white;
+	}
+}
