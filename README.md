@@ -42,5 +42,5 @@ Manage user's credit<br>
 ![](https://github.com/MockinAeon/CitySpace/blob/master/gif/credit%20role.gif "Credit") <br>
 
 ### Reserve Role
-Processing all requests, if credit role has processed this request, their will be a message.<br>
+Processing all requests, if credit role has processed this request, there will be a message.<br>
 ![](https://github.com/MockinAeon/CitySpace/blob/master/gif/reserve%20role.gif "Reserve") <br>
